@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title> Mock Evaluation - 1</title>
+          <style>
+                    #grandfather {
+                              height: 600px;
+                              width: 90%;
+                              display: flex;
+                              /* background: red; */
+                              border: 2px solid black;
+                              padding: 30px;
+                              margin: auto;
+                    }
+
+                    .father {
+                              height: 500px;
+                              width: 500px;
+                              /* background-color: antiquewhite; */
+                              /* display: flex; */
+                              margin: auto;
+                              padding: 20px;
+                              margin: 20px;
+                              display: flex;
+                              border: 2px solid black;
+                    }
+
+
+
+                    .person1 {
+                              height: 200px;
+                              width: 200px;
+                              /* background: lightgreen; */
+                              display: flex;
+                              /* flex-direction:column ; */
+                    }
+
+                    .child {
+                              height: 400px;
+                              width: 100px;
+                              /* background: red; */
+                              border: 2px solid black;
+                    }
+
+                    .child-3 {
+                              height: 400px;
+                              width: 120px;
+                              /* background: red; */
+                              border: 2px solid black;
+
+                    }
+
+                    .child-3>div {
+                              height: 40px;
+                              width: 40px;
+                              background-color: white;
+                              border: 2px solid black;
+                              margin: 20px;
+                              font-size: 40px;
+
+
+                    }
+
+                    .uncle {
+                              height: 500px;
+                              width: 500px;
+                              /* background: lightblue; */
+                              display: flex;
+                              flex-direction: column;
+                              margin: auto;
+                              padding: 20px;
+                              margin: 20px;
+                              border:2px black solid;
+                    }
+
+                    .person2 {
+                              height: 30px;
+                              width: 100%;
+                              /* background: lightgreen; */
+                              display: flex;
+                              border: black solid 2px;
+                              margin-top: 50px;
+                    }
+
+                    .children {
+                            
+                              height: 400px;
+                              width: 90%;
+                              margin-top: 50px;
+                              border: 2px solid black;
+                              display: flex;
+
+                    }
+
+                    .children>div {
+                              height: 100px;
+                              width: 90%;
+                              
+                              /* background: green; */
+                              /* border: 2px solid red; */
+                              margin: auto;
+                              margin-top: 20px;
+                              display: flex;
+                    }
+
+
+                    .children-2 {
+                              height: 200px;
+                              /* background: black */
+                    }
+          </style>
+</head>
+
+<body>
+          <div id="grandfather">
+
+                    <div class="father">
+                              <div class="person1">
+                                        <div class="child">
+                                                  <div>child 1</div>
+                                        </div>
+                                        <div class="child">
+                                                  <div>child 2</div>
+                                        </div>
+                                        <div class="child-3">
+                                                  child 3
+                                                  <div>1</div>
+                                                  <div>2</div>
+                                                  <div>3</div>
+                                        </div>
+                              </div>
+                    </div>
+
+
+                    <div class="uncle">
+                              <div class="person2">
+                                        <div class="children">
+                                                  child-1
+                                        </div>
+                                        <div class="children">
+
+                                                  <div>1</div>
+                                                  <div>2</div>
+                                                  <div>3</div>
+                                        </div>
+                                        <div class="children">
+
+                                        </div>
+                              </div>
+                    </div>
+
+          </div>
+</body>
+
+</html>
